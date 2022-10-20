@@ -9,9 +9,11 @@ public class EjercicioIva {
         double iva = 0.19;
         double precio = 500;
         double precioIva = getPriece( iva , precio);
-        System.out.println(precioIva);
+        System.out.println("El precio con IVA es : " + precioIva);
 
     }
+
+
 
     static double getPriece(double iva , double precio) {
         return (((precio * iva) + precio));
