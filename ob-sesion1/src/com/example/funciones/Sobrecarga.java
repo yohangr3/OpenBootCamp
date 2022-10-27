@@ -6,19 +6,20 @@ package com.example;
 public class Sobrecarga {
 
     public static void main(String[] args) {
-
+        int numero1 = 20;
+        int numero2 = 30;
+        int numero3 = 40;
+        System.out.println(suma(numero1, numero2, numero3));
+        System.out.println(suma(numero1, numero2));
     }
-
-    static double suma(double numero1, double numero2) { //sobrecargamos el método pero con diferente tipo de variable
-        return numero1 + numero2;
-    }
+    
 
     static int suma(int numero1, int numero2) {
         return numero1 + numero2;
     }
 
     static int suma(int numero1, int  numero2, int numero3) {
-        return numero1 + numero2;
+        return numero1 + numero2  + numero3;
     }
 
 }

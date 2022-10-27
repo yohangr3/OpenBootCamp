@@ -32,6 +32,7 @@ public class Funciones {
         System.out.println(resultadoSuma);
 
 
+
     }
 
     static int suma(int numero1, int numero2) {
@@ -45,6 +46,7 @@ public class Funciones {
     static  void imprimirSaludoBuenosDias(String name){
         System.out.println("Buenas tardes " + name + "\n");
     }
+
 
     static double getPriece(){
         return 100.99;
